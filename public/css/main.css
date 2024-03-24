@@ -1,0 +1,576 @@
+@charset "UTF-8";
+
+/*@import "reset.css";*/
+/*@import "normalize.css";*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@-ms-viewport{
+    width: device-width;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    background: black;
+    color: whitesmoke;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 200px;
+    height: 45px;
+}
+
+.header-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+.header-main li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header-main li:first-child {
+    margin: 0 20px 0 0;
+}
+
+.header-main li:last-child {
+    margin: 0 0 0 20px;
+}
+
+.social-icons a {
+    color: #b79d57;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+
+.social-icons a:hover {
+    color: whitesmoke;
+    transition: 0.3s ease;
+}
+
+.hero-main {
+    background: black;
+    color: whitesmoke;
+    padding: 50px 0 80px 0;
+}
+
+.hero-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-main li {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: slategray;
+    padding: 25px 0;
+    margin: 0 0 -1px 0;
+    font-size: 30px;
+    font-weight: 300;
+    transition: 0.3s ease;
+}
+
+.hero-main li:hover {
+    /*background-color: whitesmoke;*/
+    background-color: #e4e4e4;
+    color: black;
+    padding: 25px 0 25px 50px;
+    transition: 0.3s ease;
+
+}
+
+.hero-main a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.media-wall-main {
+    height: 700px;
+    background: #00ff0085;
+}
+
+/*.plans-main {*/
+/*    !*overflow: hidden;*!*/
+/*    text-align: center;*/
+/*    background: black;*/
+/*    padding: 240px 0 0 0;*/
+/*    !*border-width: 1px 0 1px 0;*!*/
+/*    !*border-style: solid;*!*/
+/*    !*border-color: slategray;*!*/
+/*}*/
+
+/*.plans-main ul {*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.plans-main li {*/
+/*    display: inline-block;*/
+/*    padding: 30px 30px;*/
+/*    width: calc(50% - 124px);*/
+/*    border-width: 1px 1px 1px 1px;*/
+/*    border-style: solid;*/
+/*    border-color: slategray;*/
+/*    color: whitesmoke;*/
+/*    !*background: lime;*!*/
+/*    transition: 0.3s ease;*/
+/*}*/
+
+/*.plans-main li:hover {*/
+/*    background: #947d41;*/
+/*    color: black;*/
+/*    transition: 0.3s ease;*/
+/*}*/
+
+/*.plans-main li button {*/
+/*    background-color:#947d41;*/
+/*    color:#FFF;*/
+/*    padding:8px 20px;*/
+/*    margin: 12px 0;*/
+/*    border:0;*/
+/*    font-size:18px;*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.plans-main li:hover > button {*/
+/*    background-color: black;*/
+/*}*/
+
+/*.god-container {*/
+/*    width: 160px;*/
+/*    height: 240px;*/
+/*    margin: auto auto;*/
+/*}*/
+
+/*.god-name {*/
+/*    font-weight: 900;*/
+/*    font-size: 25px;*/
+/*    letter-spacing: 1px;*/
+/*    text-transform: uppercase;*/
+/*    margin: 5px 0 0 0;*/
+/*}*/
+
+/*.plan-description {*/
+/*    font-size: 18px;*/
+/*    font-weight: 600;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.plan-price {*/
+/*    font-size: 15px;*/
+/*    font-weight: 400;*/
+/*    margin: 0;*/
+/*}*/
+
+.barbarian-statement {
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: black;
+}
+
+.barbarian-statement p {
+    text-align: center !important;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    line-height: 60px;
+    /*font-weight: 500;*/
+}
+
+.footer-main {
+    text-align: center;
+    background: black;
+}
+
+.footer-social {
+    overflow: hidden;
+    padding: 50px 0;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: slategray;
+}
+
+.footer-social span {
+    margin: auto 0 auto 10px;
+    font-size: 12px;
+}
+
+.footer-social i {
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.footer-social a {
+    text-decoration: none;
+    /*font-size: 15px;*/
+    color: #b79d57;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+.footer-social a:hover {
+    color: whitesmoke;
+    transition: .3s ease;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline;
+    margin: 0 25px;
+}
+
+.footer-social li:first-child {
+    margin: 0 25px 0 0;
+}
+
+.footer-social li:last-child {
+    margin: 0 0 0 25px;
+}
+
+.footer-brand {
+    overflow: hidden;
+}
+
+.footer-logo {
+    width: 300px;
+    height: 230px;
+    margin: 50px auto 30px auto;
+}
+
+.footer-copy {
+    overflow: hidden;
+    font-size: 12px;
+    color: slategrey;
+    padding: 40px 0 100px 0;
+}
+
+.footer-copy ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copy li {
+    display: inline;
+}
+
+.footer-copy li:before {
+    content: '/';
+    margin: 0 5px;
+}
+
+.footer-copy li:first-child:before {
+    content: '';
+    margin: 0;
+}
+
+.footer-copy a {
+    text-decoration: none;
+    color: slategray;
+    transition: 0.3s ease;
+}
+
+.footer-copy a:hover {
+    color: whitesmoke;
+    transition: 0.3s ease;
+}
+
+.hero-member-welcome {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.onboarding-form-container {
+    background: #e4e4e4;
+    padding: 30px;
+}
+
+.brand-a {
+    background: url("../image/brand/logo_7.png") center center no-repeat;
+    background-size: contain;
+}
+
+.brand-b {
+    background: url("../image/brand/logo_7_typo.png") center center no-repeat;
+    background-size: contain;
+}
+
+.brand-c {
+    background: url("../image/brand/logo_7_ico.png") center center no-repeat;
+    background-size: contain;
+}
+
+.media-a {
+    background: url("../image/arthur-humeau-pu20JkUx--A-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.zeus {
+    background: url("../image/zeus.png") center center no-repeat;
+    background-size: contain;
+}
+
+.perseus {
+    background: url("../image/perseus.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pano-a {
+    background: url("../image/pano/pano_a.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+.pano-b {
+    background: url("../image/pano/pano_b.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+.contact-main {
+    background: black;
+    margin: 240px 0 0 0;
+}
+
+/*.map-responsive{*/
+/*    overflow:hidden;*/
+/*    padding-bottom:56.25%;*/
+/*    position:relative;*/
+/*    height:0;*/
+/*}*/
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.contact-info {
+    color: whitesmoke;
+    background: #000000cc;
+    padding: 10px 15px 10px 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 999999;
+}
+
+.contact-tag-title {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.contact-meta {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom: 56.25%;
+        position:relative;
+        height:0;
+    }
+
+    .plans-main {
+        /*overflow: hidden;*/
+        text-align: center;
+        background: black;
+        padding: 240px 0 0 0;
+        /*border-width: 1px 0 1px 0;*/
+        /*border-style: solid;*/
+        /*border-color: slategray;*/
+    }
+
+    .plans-main ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .plans-main li {
+        display: inline-block;
+        padding: 30px 30px;
+        width: calc(50% - 124px);
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: slategray;
+        color: whitesmoke;
+        /*background: lime;*/
+        transition: 0.3s ease;
+    }
+
+    .plans-main li:hover {
+        /*background: #947d41;*/
+        background: #e4e4e4;
+        color: black;
+        transition: 0.3s ease;
+    }
+
+    .plans-main li button {
+        background-color:#947d41;
+        color:#FFF;
+        padding:8px 20px;
+        margin: 12px 0;
+        border:0;
+        font-size:18px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .plans-main li:hover > button {
+        background-color: black;
+    }
+
+    .plans-main li button:hover {
+        background-color:#947d41;
+        transition: 0.3s ease;
+    }
+
+    .god-container {
+        width: 160px;
+        height: 240px;
+        margin: auto auto;
+    }
+
+    .god-name {
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 5px 0 0 0;
+    }
+
+    .plan-description {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .plan-price {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:100%;
+        position:relative;
+        height:0;
+    }
+
+    .plans-main {
+        /*overflow: hidden;*/
+        text-align: center;
+        background: black;
+        padding: 240px 0 0 0;
+        /*border-width: 1px 0 1px 0;*/
+        /*border-style: solid;*/
+        /*border-color: slategray;*/
+    }
+
+    .plans-main ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .plans-main li {
+        display: block;
+        padding: 30px 30px;
+        width: auto;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: slategray;
+        color: whitesmoke;
+        /*background: lime;*/
+        transition: 0.3s ease;
+    }
+
+    .plans-main li:hover {
+        /*background: #947d41;*/
+        background: #e4e4e4;
+        color: black;
+        transition: 0.3s ease;
+    }
+
+    .plans-main li button {
+        background-color:#947d41;
+        color:#FFF;
+        padding:8px 20px;
+        margin: 12px 0;
+        border:0;
+        font-size:18px;
+        font-weight: 600;
+    }
+
+    .plans-main li:hover > button {
+        background-color: black;
+    }
+
+    .god-container {
+        width: 160px;
+        height: 240px;
+        margin: auto auto;
+    }
+
+    .god-name {
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 5px 0 0 0;
+    }
+
+    .plan-description {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .plan-price {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+}
+
+
